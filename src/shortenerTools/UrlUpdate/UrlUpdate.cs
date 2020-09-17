@@ -82,7 +82,7 @@ namespace Cloud5mins.Function
                 .AddEnvironmentVariables()
                 .Build();
 
-            StorageTableHelper stgHelper = new StorageTableHelper(config["UlsDataStorage"]); 
+            StorageTableHelper stgHelper = new StorageTableHelper(config["UrlsDataStorage"]); 
 
             try
             {
