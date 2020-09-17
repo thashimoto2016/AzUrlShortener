@@ -30,7 +30,7 @@ And finally, click the **Copy** button to get the URL of your function _with the
 >     "AzureWebJobsStorage": "CONNSTR_TO_shortenertools",
 >     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
 >     "FUNCTIONS_V2_COMPATIBILITY_MODE":"true",
->     "UlsDataStorage":"CONNSTR_TO_urldata"
+>     "UrlsDataStorage":"CONNSTR_TO_urldata"
 >   }
 > }
 > ```
