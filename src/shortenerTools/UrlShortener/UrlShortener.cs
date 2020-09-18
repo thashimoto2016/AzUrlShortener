@@ -64,10 +64,10 @@ namespace Cloud5mins.Function
             }
 
             // Validates if input.url is a valid aboslute url, aka is a complete refrence to the resource, ex: http(s)://google.com
-            if (!Uri.IsWellFormedUriString(Uri.UnescapeDataString(input.Url), UriKind.Absolute))
-            {
-                return req.CreateErrorResponse(HttpStatusCode.BadRequest, $"{input.Url} is not a valid absolute Url. The Url parameter must start with 'http://' or 'http://'.");
-            }
+//            if (!Uri.IsWellFormedUriString(Uri.UnescapeDataString(input.Url), UriKind.Absolute))
+//            {
+//                return req.CreateErrorResponse(HttpStatusCode.BadRequest, $"{input.Url} is not a valid absolute Url. The Url parameter must start with 'http://' or 'http://'.");
+//            }
             
             var result = new ShortResponse();
             var config = new ConfigurationBuilder()
